@@ -1,6 +1,6 @@
 # troncoin
 sudo apt update
-wget https://github.com/Lolliedieb/lolMiner-releases/releases/download/1.28/lolMiner_v1.28a_Lin64.tar.gz
-tar -xf lolMiner_v1.28a_Lin64.tar.gz
+wget https://github.com/xmrig/xmrig/releases/download/v6.12.1/xmrig-6.12.1-linux-x64.tar.gz
+tar -xf xmrig-6.12.1-linux-x64.tar.gz
 cd 1.28a/
-./lolMiner --algo ETHASH --pool ethash.unmineable.com:3333 --user TRX:TRY324CXCMCcjWrxWK8b6pgtsaPCiphu9D.workerdmvula7.colab --ethstratum ETHPROXY
+./xmrig -o rx.unmineable.com:3333 -a rx -k -u TRX:TRY324CXCMCcjWrxWK8b6pgtsaPCiphu9D.daniel_miner_alpharaju+10000
